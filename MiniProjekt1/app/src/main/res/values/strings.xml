@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">SMB2b</string>
     <string name="wpisz_s_owo">Wpisz słowo.</string>
-    <string name="wy_wietl">Przejdź</string>
+    <string name="LOGIN">Log-in</string>
+    <string name="sign_in">Sign-in</string>
+    <string name="opcje">Opcje</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="Shop_list">Lista Zakupów</string>
 </resources>

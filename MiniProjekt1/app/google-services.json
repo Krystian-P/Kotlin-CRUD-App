@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "440377030185",
+    "project_id": "smb2b-6d459",
+    "storage_bucket": "smb2b-6d459.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440377030185:android:cd17fb2920daad7725ce38",
+        "android_client_info": {
+          "package_name": "com.example.smb2b"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440377030185-9k1bk0hdgego2he29ga95odh6puv0cue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGAkqHsz9vdlnzbwz8uvsnuy7WsS5YZC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440377030185-9k1bk0hdgego2he29ga95odh6puv0cue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

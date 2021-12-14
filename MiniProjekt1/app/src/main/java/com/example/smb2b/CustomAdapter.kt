@@ -11,7 +11,7 @@ import java.security.AccessController.getContext
 import kotlin.collections.ArrayList
 
 
-class RecyclerViewAdapter(val listener: RowClickListener, private val shopViewModel: MainActivityViewModel) : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>() {
+class RecyclerViewAdapter(val listener: RowClickListener) : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>() {
 
     var items = ArrayList<ShopE>()
 

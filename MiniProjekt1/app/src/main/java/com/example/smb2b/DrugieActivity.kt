@@ -24,7 +24,7 @@ class DrugieActivity : AppCompatActivity(), RecyclerViewAdapter.RowClickListener
         setContentView(viewModel.root)
 
         viewModel.rv1.layoutManager = LinearLayoutManager(this@DrugieActivity)
-        val adapter = RecyclerViewAdapter(this@DrugieActivity, MainActivityViewModel(application))
+        val adapter = RecyclerViewAdapter(this@DrugieActivity)
         viewModel.rv1.addItemDecoration(
             DividerItemDecoration(this, DividerItemDecoration.VERTICAL)
         )
