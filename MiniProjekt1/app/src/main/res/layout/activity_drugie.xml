@@ -21,45 +21,79 @@
         android:id="@+id/etProduct"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="236dp"
         android:ems="10"
-        android:hint="Produkt"
+        android:hint="Product"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rv1" />
 
     <EditText
-        android:id="@+id/etName"
+        android:id="@+id/etAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
-        android:hint="Imię"
+        android:hint="Amount"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etProduct" />
+        app:layout_constraintTop_toBottomOf="@+id/etPrice" />
 
-    <EditText
-        android:id="@+id/etSurname"
+    <TextView
+        android:id="@+id/tvPriceO"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="99dp"
-        android:layout_marginTop="0dp"
-        android:ems="10"
-        android:hint="Nazwisko"
-        android:inputType="textPersonName"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etName" />
+        app:layout_constraintTop_toBottomOf="@+id/tvProductO" />
 
     <Button
         android:id="@+id/btAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="161dp"
-        android:layout_marginTop="10dp"
-        android:text="Save"
+        android:layout_marginTop="8dp"
+        android:text="@string/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etSurname" />
+        app:layout_constraintTop_toBottomOf="@+id/etAmount"
+        app:layout_constraintVertical_bias="0.075" />
+
+    <TextView
+        android:id="@+id/tvProductO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="260dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rv1" />
+
+    <TextView
+        android:id="@+id/tvAmountO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPriceO" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Price"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etProduct" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
