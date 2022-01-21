@@ -51,4 +51,10 @@ class MainActivity : AppCompatActivity() {
         val intentOptionActivity = Intent(this, OptionActivity::class.java)
         startActivity(intentOptionActivity)
     }
+
+    fun mapclick(view: View) {
+        //Toast.makeText(this, "klik1", Toast.LENGTH_SHORT).show()
+        val intentMapsActivity= Intent(this, MapsActivity::class.java)
+        startActivity(intentMapsActivity)
+    }
 }

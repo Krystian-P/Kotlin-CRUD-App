@@ -37,6 +37,16 @@
         app:layout_constraintTop_toBottomOf="@+id/btLogin" />
 
     <Button
+        android:id="@+id/btMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="mapclick"
+        android:text="mapa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btRegister" />
+
+    <Button
         android:id="@+id/btOpcje"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -10,14 +10,14 @@ import java.security.AccessController.getContext
 import kotlin.collections.ArrayList
 
 
-class RecyclerViewAdapter(private val shopList: ArrayList<Item>,val listener: RowClickListener) : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>() {
+class RecyclerViewAdapter(private val itemList: ArrayList<Item>,val listener: RowClickListener) : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>() {
 
 
 
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ):  RecyclerViewAdapter.MyViewHolder {
+    ):  MyViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val binding = ElementBinding.inflate(inflater)
         return MyViewHolder(binding, listener)
@@ -25,15 +25,15 @@ class RecyclerViewAdapter(private val shopList: ArrayList<Item>,val listener: Ro
 
     override fun getItemCount(): Int {
 
-        return shopList.size
+        return itemList.size
 
     }
 
-    override fun onBindViewHolder(holder: RecyclerViewAdapter.MyViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
 
 
 
-        val item: Item = shopList[position]
+        val item: Item = itemList[position]
         holder.tvNazwa.text = item.nazwa
         holder.tvCena.text = item.cena
         holder.tvIlosc.text = item.ilosc
