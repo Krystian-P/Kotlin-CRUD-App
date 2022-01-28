@@ -1,0 +1,6 @@
+<resources>
+
+    <style name="Widget.SMB2b.AppWidget.Container" parent="android:Widget">
+        <item name="android:clipToOutline">true</item>
+    </style>
+</resources>

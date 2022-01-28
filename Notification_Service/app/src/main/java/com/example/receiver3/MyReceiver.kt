@@ -22,7 +22,6 @@ class MyReceiver : BroadcastReceiver() {
         val serviceIntent = Intent(context, MyService::class.java)
         serviceIntent.putExtra("str1", str1)
         ContextCompat.startForegroundService(context,serviceIntent)
-
     }
 
 

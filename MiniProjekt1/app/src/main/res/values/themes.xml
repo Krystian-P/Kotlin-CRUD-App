@@ -37,10 +37,26 @@
         <item name="colorPrimaryDark">@color/md_blue_700</item>
         <item name="colorAccent">@color/md_turquoise_A400</item>
     </style>
+
     <style name="Theme.SMB2b.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+
     <style name="Theme.SMB2b.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
     <style name="Theme.SMB2b.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.SMB2b.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+        <item name="appWidgetRadius">8dp</item>
+        <item name="appWidgetPadding">4dp</item>
+        <item name="appWidgetInnerRadius">4dp</item>
+    </style>
+
+    <style name="ThemeOverlay.TestWidget.AppWidgetContainer" parent="">
+        <item name="appWidgetBackgroundColor">@color/light_blue_600</item>
+        <item name="appWidgetTextColor">@color/light_blue_50</item>
+    </style>
+
+    <style name="Theme.SMB2b.AppWidgetContainer" parent="Theme.SMB2b.AppWidgetContainerParent" />
 </resources>
