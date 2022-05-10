@@ -4,7 +4,7 @@ App use Google firebase services and Geofences
 
 ### Simple CRUD application:
 
-Stor your product lists and favourite shopse
+Store your product lists and favourite shopse
 
 ## Pre-requisites 
 
