@@ -10,9 +10,9 @@ Store your product lists and favourite shopse
 
 API 31 emulator with Google Shop
 
-## Building and running
+## Plans
 
--
+Currently suspended
 
 ## Testing
 
